@@ -1,10 +1,10 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  MCD Application Team
+  * @author  Nigel Mollett
   * @version V1.0.0
-  * @date    30 October 2014
-  * @brief   The main file for the Rotary Encoder demo/test project.
+  * @date    05 January 2015
+  * @brief   The main file for the DS18B20 demo/test project.
   ******************************************************************************
 */
 
@@ -13,7 +13,6 @@
 #include "stm32f4xx_usart.h"
 #include <stdio.h>
 #include <string.h>
-//#include "onewire.h"
 #include "ds18b20.h"
 #include "delay.h"
 #include "debug.h"
@@ -23,9 +22,6 @@
 /*
  * Function prototypes.
  */
-
-
-
 
 
 int main()
